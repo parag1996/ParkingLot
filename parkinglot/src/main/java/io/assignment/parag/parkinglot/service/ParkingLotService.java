@@ -1,6 +1,7 @@
-package io.assignment.parkinglot.service;
+package io.assignment.parag.parkinglot.service;
 
-import io.assignment.parkinglot.exception.ParkingException;
+import io.assignment.parag.parkinglot.exception.ParkingException;
+import io.assignment.parag.parkinglot.models.Ticket;
 
 /**
  * This is service class interface of parkinglot
@@ -12,7 +13,7 @@ public interface ParkingLotService {
 
 	void parkCar(String regNumber) throws ParkingException;
 
-	void unParkCar(String regNumber, int duration) throws ParkingException;
+	Ticket unParkCar(String regNumber, int duration) throws ParkingException;
 
 	void getStatus() throws ParkingException;
 }

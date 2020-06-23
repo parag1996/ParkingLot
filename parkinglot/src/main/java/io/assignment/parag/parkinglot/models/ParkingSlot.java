@@ -1,4 +1,4 @@
-package io.assignment.parkinglot.models;
+package io.assignment.parag.parkinglot.models;
 
 public class ParkingSlot implements Comparable<ParkingSlot> {
 

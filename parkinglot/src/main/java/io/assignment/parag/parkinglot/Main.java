@@ -1,19 +1,20 @@
-package io.assignment.parkinglot;
+package io.assignment.parag.parkinglot;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import io.assignment.parkinglot.dao.ParkingCapacityDao;
-import io.assignment.parkinglot.dao.ParkingLotDao;
-import io.assignment.parkinglot.dao.ParkingTicketDao;
-import io.assignment.parkinglot.daoimpl.ParkingCapacityDaoImpl;
-import io.assignment.parkinglot.daoimpl.ParkingLotDaoImpl;
-import io.assignment.parkinglot.daoimpl.ParkingTicketDaoImpl;
-import io.assignment.parkinglot.exception.ParkingException;
-import io.assignment.parkinglot.processor.InputProcessor;
-import io.assignment.parkinglot.service.ParkingLotService;
-import io.assignment.parkinglot.serviceimpl.ParkingLotServiceImpl;
-import io.assignment.parkinglot.util.Constants;
+
+import io.assignment.parag.parkinglot.dao.ParkingCapacityDao;
+import io.assignment.parag.parkinglot.dao.ParkingLotDao;
+import io.assignment.parag.parkinglot.dao.ParkingTicketDao;
+import io.assignment.parag.parkinglot.daoimpl.ParkingCapacityDaoImpl;
+import io.assignment.parag.parkinglot.daoimpl.ParkingLotDaoImpl;
+import io.assignment.parag.parkinglot.daoimpl.ParkingTicketDaoImpl;
+import io.assignment.parag.parkinglot.exception.ParkingException;
+import io.assignment.parag.parkinglot.processor.InputProcessor;
+import io.assignment.parag.parkinglot.service.ParkingLotService;
+import io.assignment.parag.parkinglot.serviceimpl.ParkingLotServiceImpl;
+import io.assignment.parag.parkinglot.util.Constants;
 
 /**
  * Main class of ParkingLot service

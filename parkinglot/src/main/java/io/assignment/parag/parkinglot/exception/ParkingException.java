@@ -1,4 +1,4 @@
-package io.assignment.parkinglot.exception;
+package io.assignment.parag.parkinglot.exception;
 
 /**
  * This exception class for ParkingLot

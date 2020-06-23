@@ -1,10 +1,11 @@
-package io.assignment.parkinglot.daoimpl;
+package io.assignment.parag.parkinglot.daoimpl;
 
 import java.util.HashMap;
 import java.util.Map;
-import io.assignment.parkinglot.dao.ParkingTicketDao;
-import io.assignment.parkinglot.models.Ticket;
-import io.assignment.parkinglot.models.Vehicle;
+
+import io.assignment.parag.parkinglot.dao.ParkingTicketDao;
+import io.assignment.parag.parkinglot.models.Ticket;
+import io.assignment.parag.parkinglot.models.Vehicle;
 
 /**
  * This class implements methods in ParkingTicketDao interface

@@ -1,8 +1,8 @@
-package io.assignment.parkinglot.processor;
+package io.assignment.parag.parkinglot.processor;
 
-import io.assignment.parkinglot.exception.ParkingException;
-import io.assignment.parkinglot.service.ParkingLotService;
-import io.assignment.parkinglot.util.Constants;
+import io.assignment.parag.parkinglot.exception.ParkingException;
+import io.assignment.parag.parkinglot.service.ParkingLotService;
+import io.assignment.parag.parkinglot.util.Constants;
 
 /**
  * This class process input parameters

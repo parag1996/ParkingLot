@@ -1,9 +1,10 @@
-package io.assignment.parkinglot.daoimpl;
+package io.assignment.parag.parkinglot.daoimpl;
 
 import java.util.TreeSet;
-import io.assignment.parkinglot.dao.ParkingCapacityDao;
-import io.assignment.parkinglot.models.ParkingSlot;
-import io.assignment.parkinglot.util.Constants;
+
+import io.assignment.parag.parkinglot.dao.ParkingCapacityDao;
+import io.assignment.parag.parkinglot.models.ParkingSlot;
+import io.assignment.parag.parkinglot.util.Constants;
 
 /**
  * This class implements methods in ParkingCapacityDao interface
@@ -14,7 +15,7 @@ public class ParkingCapacityDaoImpl implements ParkingCapacityDao {
 	private final TreeSet<ParkingSlot> parkingSlots;
 
 	public ParkingCapacityDaoImpl() {
-		parkingSlots = new TreeSet<ParkingSlot>();
+		this.parkingSlots = new TreeSet<ParkingSlot>();
 	}
 
 	@Override
@@ -38,7 +39,8 @@ public class ParkingCapacityDaoImpl implements ParkingCapacityDao {
 	}
 
 	@Override
-	public void createSlots(int num) {
+	public int createSlots(int num) {
+		int size;
 		if (parkingSlots != null) {
 			for (int i = 1; i <= num; i++) {
 				parkingSlots.add(new ParkingSlot(i));
@@ -46,6 +48,8 @@ public class ParkingCapacityDaoImpl implements ParkingCapacityDao {
 		} else {
 			System.out.println(Constants.PARKING_IS_ALREADY_CREATED);
 		}
+		size = parkingSlots.size() == num ?parkingSlots.size():null;
+		return size;
 	}
 
 }

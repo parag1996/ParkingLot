@@ -1,6 +1,6 @@
-package io.assignment.parkinglot.dao;
+package io.assignment.parag.parkinglot.dao;
 
-import io.assignment.parkinglot.models.ParkingSlot;
+import io.assignment.parag.parkinglot.models.ParkingSlot;
 
 /**
  * This interface different methods declaration related to parking Slots.
@@ -14,5 +14,5 @@ public interface ParkingCapacityDao {
 	
 	int getCurrentAvailableSlots();
 	
-	void createSlots(int num);
+	int createSlots(int num);
 }

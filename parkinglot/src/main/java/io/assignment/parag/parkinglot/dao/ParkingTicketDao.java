@@ -1,7 +1,7 @@
-package io.assignment.parkinglot.dao;
+package io.assignment.parag.parkinglot.dao;
 
-import io.assignment.parkinglot.models.Ticket;
-import io.assignment.parkinglot.models.Vehicle;
+import io.assignment.parag.parkinglot.models.Ticket;
+import io.assignment.parag.parkinglot.models.Vehicle;
 
 /**
  * This interface declares ticket generation methods

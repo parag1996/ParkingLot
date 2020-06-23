@@ -1,4 +1,4 @@
-package io.assignment.parkinglot.models;
+package io.assignment.parag.parkinglot.models;
 
 import java.util.Objects;
 
