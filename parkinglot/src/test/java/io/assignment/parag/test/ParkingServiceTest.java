@@ -79,5 +79,28 @@ public class ParkingServiceTest {
 		assertEquals(allocatedTickets.size(), size);
 		
 	}
+	
+	
+	@Test
+	public void testForUnparkVehicleFareLessThan2Hours() throws ParkingException {
+
+		int size = 2;
+		parkingCapacityDao.createSlots(size);
+		parkingLotDao.park("MH-32-XYZ");
+		Ticket ticket = parkingLotService.unParkCar("MH-32-XYZ", 1);
+		assertEquals((int)10, (int)ticket.getFare());
+		
+	}
+	
+	@Test
+	public void testForUnparkVehicleFareMoreThan2Hours() throws ParkingException {
+
+		int size = 2;
+		parkingCapacityDao.createSlots(size);
+		parkingLotDao.park("MH-32-XYZ");
+		Ticket ticket = parkingLotService.unParkCar("MH-32-XYZ", 5);
+		assertEquals((int)40, (int)ticket.getFare());
+		
+	}
 
 }

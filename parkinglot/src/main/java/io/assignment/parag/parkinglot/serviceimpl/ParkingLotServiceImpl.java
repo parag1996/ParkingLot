@@ -1,7 +1,5 @@
 package io.assignment.parag.parkinglot.serviceimpl;
 
-import java.util.stream.Stream;
-
 import io.assignment.parag.parkinglot.dao.ParkingCapacityDao;
 import io.assignment.parag.parkinglot.dao.ParkingLotDao;
 import io.assignment.parag.parkinglot.dao.ParkingTicketDao;

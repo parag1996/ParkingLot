@@ -3,7 +3,6 @@ package io.assignment.parag.parkinglot;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-
 import io.assignment.parag.parkinglot.dao.ParkingCapacityDao;
 import io.assignment.parag.parkinglot.dao.ParkingLotDao;
 import io.assignment.parag.parkinglot.dao.ParkingTicketDao;

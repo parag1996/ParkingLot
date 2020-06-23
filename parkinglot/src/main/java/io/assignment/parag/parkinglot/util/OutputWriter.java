@@ -27,7 +27,7 @@ public class OutputWriter {
 	public void writeVehicleLeftParking(Ticket ticket)
 	{
 		System.out.println(Constants.REGISTRATION_NUMBER + ticket.getVehicle().getRegNumber()
-				+ Constants.IS_FREE_WITH_CHARGE + ticket.getFare());
+				+ Constants.IS_FREE_WITH_CHARGE + (int)ticket.getFare());
 	}
 	
 	public void writeStatus(Collection<Ticket> allocatedVehicles)
