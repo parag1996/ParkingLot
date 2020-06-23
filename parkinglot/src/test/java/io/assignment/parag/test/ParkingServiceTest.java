@@ -33,10 +33,6 @@ public class ParkingServiceTest {
 		this.parkingLotService = new ParkingLotServiceImpl(parkingCapacityDao, parkingTicketDao, parkingLotDao);
 	}
 
-	@Test
-	public void test() {
-		System.out.println("Junit is working");
-	}
 
 	@Test
 	public void testForParkingLotCreation() {
